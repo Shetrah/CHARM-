@@ -308,7 +308,7 @@ export const products: Product[] = [
     categoryZh: "汽车护理",
     description: "Professional-grade interior cleaner that safely removes dirt, stains, and odors from all car surfaces including leather, fabric, and plastic.",
     descriptionZh: "专业级内饰清洁剂，安全去除所有汽车表面的污垢、污渍和异味，包括皮革、织物和塑料。",
-    image: "/products/automotive-interior-cleaner.jpg",
+    image: "/products/image-automotive.jpg",
     badge: "Pro Grade",
     badgeZh: "专业级",
     variants: [
@@ -333,7 +333,7 @@ export const products: Product[] = [
     categoryZh: "汽车护理",
     description: "Premium tire dressing that delivers a deep, rich shine while protecting against UV damage and cracking.",
     descriptionZh: "优质轮胎养护剂，带来深邃亮泽光泽，同时防止紫外线损伤和开裂。",
-    image: "/products/tire-wax.jpg",
+    image: "/products/image tire.jpg",
     variants: [
       {
         id: "tire-wax-premium",
@@ -356,7 +356,7 @@ export const products: Product[] = [
     categoryZh: "汽车护理",
     description: "Crystal-clear visibility in all weather conditions. Our advanced formula removes bugs, grime, and road film instantly.",
     descriptionZh: "全天候晶莹剔透的视野。我们的先进配方即刻去除虫渍、污垢和路面油膜。",
-    image: "/products/windshield-washer.jpg",
+    image: "/products/image-windshield.jpg",
     variants: [
       {
         id: "washer-all-purpose",
