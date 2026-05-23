@@ -169,8 +169,8 @@ const faqCategories: FAQCategory[] = [
       {
         q: "How can I contact customer support?",
         qZh: "如何联系客户支持？",
-        a: "Reach us via email at hello@charmclean.com, phone at +1 (888) CHARM-99, or through WeChat (CharmClean_Official). Our team is available Mon-Fri, 9AM-6PM EST.",
-        aZh: "通过电子邮件 hello@charmclean.com、电话 +1 (888) CHARM-99 或微信（CharmClean_Official）联系我们。我们的团队在周一至周五东部时间上午9点至下午6点提供服务。",
+        a: "Reach us via email at kenyacharm888@gmail.com, WhatsApp at 0721359999, or through WeChat (kzf-5888).",
+        aZh: "通过电子邮件 kenyacharm888@gmail.com、WhatsApp 0721359999 或微信（kzf-5888）联系我们。",
       },
       {
         q: "Do you have a loyalty program?",
@@ -324,8 +324,8 @@ export default function FAQsPage() {
               </h2>
               <p className="text-foreground/60 mb-8 max-w-lg mx-auto">
                 {t(
-                  "Can't find what you're looking for? Our support team is here to help via email, phone, or WeChat.",
-                  "找不到您要找的内容？我们的支持团队可通过电子邮件、电话或微信为您提供帮助。"
+                  "Can't find what you're looking for? Our support team is here to help via email, WhatsApp, or WeChat.",
+                  "找不到您要找的内容？我们的支持团队可通过电子邮件、WhatsApp 或微信为您提供帮助。"
                 )}
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -339,7 +339,7 @@ export default function FAQsPage() {
                   href="#"
                   className="px-8 py-4 glass rounded-full font-semibold text-foreground hover:text-[#00BFB3] transition-all duration-300"
                 >
-                  {t("WeChat: CharmClean_Official", "微信: CharmClean_Official")}
+                  {t("WeChat: kzf-5888", "微信: kzf-5888")}
                 </a>
               </div>
             </div>

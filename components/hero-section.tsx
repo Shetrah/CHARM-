@@ -20,7 +20,7 @@ export function HeroSection() {
   }, [])
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden px-0 pt-28 pb-20 sm:pt-32 lg:pt-36">
       {/* Background Video */}
       <div className="absolute inset-0 z-0">
         <video
@@ -54,10 +54,10 @@ export function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 mx-auto max-w-7xl px-6 text-center">
+      <div className="relative z-10 mx-auto w-full max-w-7xl px-6 text-center">
         {/* Floating Logo */}
-        <div className="animate-float mb-8">
-          <div className="relative w-40 h-40 mx-auto">
+        <div className="animate-float mb-6 sm:mb-8">
+          <div className="relative w-28 h-28 sm:w-36 sm:h-36 lg:w-40 lg:h-40 mx-auto">
             <Image
               src="/logo.png"
               alt="Charm Logo"
