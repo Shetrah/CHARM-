@@ -124,13 +124,6 @@ export function Navbar() {
                 {item.name}
               </Link>
             ))}
-            <Link
-              href="/contact"
-              onClick={() => setIsMenuOpen(false)}
-              className="mt-4 px-6 py-3 bg-[#10069F] text-white text-center font-medium rounded-full hover:bg-[#00BFB3] transition-all duration-300"
-            >
-              {t("Get Started", "立即开始")}
-            </Link>
           </div>
         </div>
       )}
