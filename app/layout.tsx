@@ -16,9 +16,12 @@ export const metadata: Metadata = {
   generator: 'v0.app',
   keywords: ['premium detergent', 'eco-friendly cleaning', 'luxury cleaning products', 'Charm', '魅力'],
   icons: {
-    icon: '/logo.png',
-    shortcut: '/logo.png',
-    apple: '/logo.png',
+    icon: [
+      { url: '/favicon.ico', sizes: '32x32' },
+      { url: '/icon.svg', type: 'image/svg+xml' },
+    ],
+    shortcut: '/favicon.ico',
+    apple: '/apple-icon.png',
   },
   openGraph: {
     title: 'Charm (魅力) | Premium Cleaning Excellence',
