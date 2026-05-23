@@ -21,7 +21,7 @@ export const metadata: Metadata = {
       { url: '/icon.svg', type: 'image/svg+xml' },
     ],
     shortcut: '/favicon.ico',
-    apple: '/apple-icon.png',
+    apple: '/favicon.ico',
   },
   openGraph: {
     title: 'Charm (魅力) | Premium Cleaning Excellence',
